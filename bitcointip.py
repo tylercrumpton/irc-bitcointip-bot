@@ -161,7 +161,7 @@ def verify(willie, trigger):
             if willie.db.tipaccounts.contains(nick):
                 if willie.db.tipaccounts.get(nick, 'verified') != 'yes':
                     willie.db.tipaccounts.update(nick, {'verified':'yes'})
-                    willie.say("{} has been verified with me. They may now recieve tips!".format(nick))
+                    willie.say("{} has been verified with me. They may now receive tips!".format(nick))
                 else:
                     willie.say("{} has already been verified with me.".format(nick))
             else:
