@@ -65,10 +65,6 @@ def help(willie, trigger):
                 willie.say('Description: Forces the BitcoinTip bot to deauthenticate you immediately. Requires auth. Private message only.')
                 willie.say('Usage: !deauth')
                 willie.say('Aliases: !deauthenticate, !unauth')
-            elif command == 'accept':
-                willie.say('Description: Accept any incoming pending Bitcoin tips. Requires auth. Private message only.')
-                willie.say('Usage: !accept')
-                willie.say('Aliases: !btc-accept, !accept-btc, !acceptbtc, !btcaccept')
             elif command == 'tip':
                 willie.say('Description: Sends an amount of Bitcoin to the given nick. Requires auth.')
                 willie.say('Usage: !tip tylercrumpton 1.0 BTC')
